@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - Resume.pdf
+
+website:
+  title: "Kasey Wood"
+  description: "SYE Website"
+  open-graph:
+    locale: en_US
+  navbar:
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Papers"
+        href: papers
+      - text: "Presentations"
+        href: presentations
+      - text: "Blog"
+        href: blog.html
+      - icon: rss
+        href: blog.xml
+format:
+  html:
+    theme: lux
